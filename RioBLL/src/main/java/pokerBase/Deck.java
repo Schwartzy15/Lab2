@@ -10,9 +10,6 @@ public class Deck {
 
 	private ArrayList<Card> deckCards = new ArrayList<Card>();
 
-	/**
-	 * No arguments for deck, will return shuffled deck of 52 cards
-	 */
 	public Deck(){
 		//Create an ArrayList of Cards, add each card
 		for (short i = 0; i <= 3; i++) {
@@ -25,10 +22,7 @@ public class Deck {
 		}
 		Collections.shuffle(deckCards);
 	}
-	/**
-	 * 
-	 * @return
-	 */
+
 	public Card Draw()
 	{
 		return deckCards.remove(0);
