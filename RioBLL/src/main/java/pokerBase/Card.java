@@ -1,5 +1,7 @@
 package pokerBase;
 
+//Michael Schwartz - 100
+//Brent Wade - 100
 
 import java.util.Comparator;
 
